@@ -1,0 +1,5 @@
+---
+- hosts: appservers
+  tasks:
+  - name: print a message
+    debug: msg="this is working"
